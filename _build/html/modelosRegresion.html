@@ -397,6 +397,8 @@
 <p><img alt="img" src="_images/ejercicios.png" /></p>
 <p><code class="docutils literal notranslate"><span class="pre">u1,</span> <span class="pre">u2,</span> <span class="pre">u3,</span> <span class="pre">u4,</span> <span class="pre">u5</span></code> representan los sensores aderidos al sujeto de prueba</p>
 <p>podemos ver las unidades de sensores como van aderidos <code class="docutils literal notranslate"><span class="pre">(a)</span></code>prueba de piernas <code class="docutils literal notranslate"><span class="pre">(b)</span></code>prueba de brazo</p>
+<p>y donde cada unidad cuenta con 3 sensores: <code class="docutils literal notranslate"><span class="pre">acelerometro</span></code>, <code class="docutils literal notranslate"><span class="pre">giroscopio</span></code>, <code class="docutils literal notranslate"><span class="pre">magnetómetro</span></code> que estos registran datos en el espacio, cada una con su componente <code class="docutils literal notranslate"><span class="pre">x,y,z</span></code></p>
+<p><code class="docutils literal notranslate"><span class="pre">'acc_x',</span> <span class="pre">'acc_y',</span> <span class="pre">'acc_z',</span> <span class="pre">'gyr_x',</span> <span class="pre">'gyr_y',</span> <span class="pre">'gyr_z',</span> <span class="pre">'mag_x',</span> <span class="pre">'mag_y',</span> <span class="pre">'mag_z'</span></code></p>
 <p><img alt="img" src="_images/sensores.png" /></p>
 <p>y hay tres distintos tipos de archivos los cuales son:</p>
 <p><code class="docutils literal notranslate"><span class="pre">template_session.txt</span></code> Contiene datos de una sesión de plantilla con tres ejecuciones para cada tipo de ejercicio, seleccionando una plantilla entre cuatro posibles.</p>
@@ -1086,16 +1088,16 @@
       <th>4</th>
       <td>s3e1u1</td>
       <td>Random Forest</td>
-      <td>37.764961</td>
-      <td>0.029225</td>
-      <td>0.999914</td>
-      <td>0.906924</td>
-      <td>7.380327e-07</td>
-      <td>33.968940</td>
-      <td>0.047782</td>
-      <td>0.999769</td>
-      <td>0.430199</td>
-      <td>9.917852e-09</td>
+      <td>39.746338</td>
+      <td>0.032462</td>
+      <td>0.999894</td>
+      <td>0.902107</td>
+      <td>2.881206e-17</td>
+      <td>35.177533</td>
+      <td>0.051572</td>
+      <td>0.999731</td>
+      <td>0.633300</td>
+      <td>6.248083e-09</td>
     </tr>
     <tr>
       <th>...</th>
@@ -1146,16 +1148,16 @@
       <th>277</th>
       <td>s3e8u5</td>
       <td>Random Forest</td>
-      <td>52.187284</td>
-      <td>0.020920</td>
-      <td>0.999958</td>
-      <td>0.804168</td>
-      <td>3.288669e-01</td>
-      <td>37.276439</td>
-      <td>0.042835</td>
-      <td>0.999824</td>
-      <td>0.210905</td>
-      <td>1.121945e-32</td>
+      <td>52.720667</td>
+      <td>0.020778</td>
+      <td>0.999959</td>
+      <td>0.694391</td>
+      <td>9.869286e-02</td>
+      <td>36.465122</td>
+      <td>0.040945</td>
+      <td>0.999839</td>
+      <td>0.212140</td>
+      <td>1.407502e-30</td>
     </tr>
     <tr>
       <th>278</th>
@@ -1379,16 +1381,16 @@
       <th>4</th>
       <td>s3e1u1</td>
       <td>Random Forest</td>
-      <td>50.575256</td>
-      <td>0.047600</td>
-      <td>0.999771</td>
-      <td>0.011520</td>
-      <td>1.551698e-05</td>
-      <td>72.898938</td>
-      <td>0.078034</td>
-      <td>0.999390</td>
-      <td>0.352422</td>
-      <td>6.300654e-26</td>
+      <td>49.531946</td>
+      <td>0.047747</td>
+      <td>0.999770</td>
+      <td>0.009528</td>
+      <td>4.071466e-06</td>
+      <td>68.953174</td>
+      <td>0.077944</td>
+      <td>0.999391</td>
+      <td>0.352717</td>
+      <td>7.090913e-27</td>
     </tr>
     <tr>
       <th>...</th>
@@ -1439,16 +1441,16 @@
       <th>277</th>
       <td>s3e8u5</td>
       <td>Random Forest</td>
-      <td>37.878233</td>
-      <td>0.030822</td>
-      <td>0.999909</td>
-      <td>0.982925</td>
-      <td>1.061752e-39</td>
-      <td>204.388128</td>
-      <td>0.043137</td>
-      <td>0.999823</td>
-      <td>0.081449</td>
-      <td>8.469770e-05</td>
+      <td>39.586899</td>
+      <td>0.030401</td>
+      <td>0.999911</td>
+      <td>0.980207</td>
+      <td>1.611425e-51</td>
+      <td>201.874610</td>
+      <td>0.042152</td>
+      <td>0.999831</td>
+      <td>0.098684</td>
+      <td>8.219344e-05</td>
     </tr>
     <tr>
       <th>278</th>
@@ -1676,16 +1678,16 @@
       <th>4</th>
       <td>s3e1u1</td>
       <td>Random Forest</td>
-      <td>1185.935071</td>
-      <td>3.307252</td>
-      <td>-0.096334</td>
-      <td>0.115989</td>
-      <td>1.131934e-17</td>
-      <td>1525.744105</td>
-      <td>3.209164</td>
-      <td>-0.030206</td>
-      <td>0.138972</td>
-      <td>3.154059e-17</td>
+      <td>1192.943003</td>
+      <td>3.243598</td>
+      <td>-0.054538</td>
+      <td>0.099708</td>
+      <td>3.222092e-18</td>
+      <td>1662.077796</td>
+      <td>3.161106</td>
+      <td>0.000418</td>
+      <td>0.124475</td>
+      <td>1.448466e-18</td>
     </tr>
     <tr>
       <th>...</th>
@@ -1736,16 +1738,16 @@
       <th>277</th>
       <td>s3e8u5</td>
       <td>Random Forest</td>
-      <td>11645.321019</td>
-      <td>3.398843</td>
-      <td>-0.099766</td>
-      <td>0.167442</td>
-      <td>1.705043e-15</td>
-      <td>1028.993991</td>
-      <td>3.475153</td>
-      <td>-0.155374</td>
-      <td>0.235985</td>
-      <td>4.747842e-15</td>
+      <td>10998.902962</td>
+      <td>3.399644</td>
+      <td>-0.100284</td>
+      <td>0.157390</td>
+      <td>2.044576e-15</td>
+      <td>1124.872291</td>
+      <td>3.481228</td>
+      <td>-0.159417</td>
+      <td>0.235869</td>
+      <td>5.260084e-15</td>
     </tr>
     <tr>
       <th>278</th>
@@ -1969,16 +1971,16 @@
       <th>4</th>
       <td>s3e1u1</td>
       <td>Random Forest</td>
-      <td>59.085458</td>
-      <td>0.100281</td>
-      <td>0.998994</td>
-      <td>0.445551</td>
-      <td>3.919083e-14</td>
-      <td>198.562859</td>
-      <td>0.089147</td>
-      <td>0.999196</td>
-      <td>0.000607</td>
-      <td>1.973066e-03</td>
+      <td>63.595355</td>
+      <td>0.102128</td>
+      <td>0.998957</td>
+      <td>0.641738</td>
+      <td>5.567286e-14</td>
+      <td>234.344311</td>
+      <td>0.088673</td>
+      <td>0.999205</td>
+      <td>0.000697</td>
+      <td>2.875423e-03</td>
     </tr>
     <tr>
       <th>...</th>
@@ -2029,16 +2031,16 @@
       <th>277</th>
       <td>s3e8u5</td>
       <td>Random Forest</td>
-      <td>78.558852</td>
-      <td>0.076634</td>
-      <td>0.999438</td>
-      <td>0.306638</td>
-      <td>8.842142e-17</td>
-      <td>118.463681</td>
-      <td>0.080075</td>
-      <td>0.999386</td>
-      <td>0.009891</td>
-      <td>2.337864e-04</td>
+      <td>76.812356</td>
+      <td>0.078311</td>
+      <td>0.999413</td>
+      <td>0.310170</td>
+      <td>4.515478e-14</td>
+      <td>110.022368</td>
+      <td>0.082793</td>
+      <td>0.999343</td>
+      <td>0.009672</td>
+      <td>1.825538e-03</td>
     </tr>
     <tr>
       <th>278</th>
@@ -2148,7 +2150,7 @@
 <img alt="_images/5e83f3abe4c0d866d6a821a0ddc05d00bc59d13699f5dd542e1849213dc5f18a.png" src="_images/5e83f3abe4c0d866d6a821a0ddc05d00bc59d13699f5dd542e1849213dc5f18a.png" />
 <img alt="_images/d06fc64b38f19355306dc56a175041929d270d93cf2c267b4f4289aac18acd88.png" src="_images/d06fc64b38f19355306dc56a175041929d270d93cf2c267b4f4289aac18acd88.png" />
 <img alt="_images/4d0b113d39e5ac43a1dad0f6b6a41298035f5c6744e5d0e8a3eea9dffab0453f.png" src="_images/4d0b113d39e5ac43a1dad0f6b6a41298035f5c6744e5d0e8a3eea9dffab0453f.png" />
-<img alt="_images/9212f9e9eba5082253507e34cc4e4e8b726a169ce71523290ef480d96dc906fa.png" src="_images/9212f9e9eba5082253507e34cc4e4e8b726a169ce71523290ef480d96dc906fa.png" />
+<img alt="_images/f7a7fe805c493f4fb002c133af0d4e337d97c18ce8dbb8192bb50710a12950ac.png" src="_images/f7a7fe805c493f4fb002c133af0d4e337d97c18ce8dbb8192bb50710a12950ac.png" />
 <img alt="_images/00d19ccc1af255e287ae41648c74dff8636c4a0fb42f3231206935b15d163097.png" src="_images/00d19ccc1af255e287ae41648c74dff8636c4a0fb42f3231206935b15d163097.png" />
 <img alt="_images/dcfa68a5c957c65ea047f25ed44b550dd639b371de29d7f5b9bbe2b3603eba58.png" src="_images/dcfa68a5c957c65ea047f25ed44b550dd639b371de29d7f5b9bbe2b3603eba58.png" />
 </div>
@@ -2560,7 +2562,7 @@
       <th>2</th>
       <td>t14</td>
       <td>Random Forest</td>
-      <td>0.990144</td>
+      <td>0.990981</td>
     </tr>
     <tr>
       <th>3</th>
@@ -2576,117 +2578,93 @@
     </tr>
     <tr>
       <th>5</th>
-      <td>t14</td>
-      <td>XGBoost</td>
-      <td>0.999721</td>
-    </tr>
-    <tr>
-      <th>6</th>
       <td>t21</td>
       <td>K-NN</td>
       <td>-0.322159</td>
     </tr>
     <tr>
-      <th>7</th>
+      <th>6</th>
       <td>t21</td>
       <td>Linear Regression</td>
       <td>-25.182058</td>
     </tr>
     <tr>
-      <th>8</th>
+      <th>7</th>
       <td>t21</td>
       <td>Random Forest</td>
-      <td>-0.560635</td>
+      <td>-0.574928</td>
     </tr>
     <tr>
-      <th>9</th>
+      <th>8</th>
       <td>t21</td>
       <td>Ridge</td>
       <td>-0.026456</td>
     </tr>
     <tr>
-      <th>10</th>
+      <th>9</th>
       <td>t21</td>
       <td>SVR</td>
       <td>-0.164385</td>
     </tr>
     <tr>
-      <th>11</th>
-      <td>t21</td>
-      <td>XGBoost</td>
-      <td>-0.580907</td>
-    </tr>
-    <tr>
-      <th>12</th>
+      <th>10</th>
       <td>t28</td>
       <td>K-NN</td>
       <td>0.700441</td>
     </tr>
     <tr>
-      <th>13</th>
+      <th>11</th>
       <td>t28</td>
       <td>Linear Regression</td>
       <td>0.964264</td>
     </tr>
     <tr>
-      <th>14</th>
+      <th>12</th>
       <td>t28</td>
       <td>Random Forest</td>
-      <td>0.959837</td>
+      <td>0.962264</td>
     </tr>
     <tr>
-      <th>15</th>
+      <th>13</th>
       <td>t28</td>
       <td>Ridge</td>
       <td>0.998416</td>
     </tr>
     <tr>
-      <th>16</th>
+      <th>14</th>
       <td>t28</td>
       <td>SVR</td>
       <td>0.683135</td>
     </tr>
     <tr>
-      <th>17</th>
-      <td>t28</td>
-      <td>XGBoost</td>
-      <td>0.977951</td>
-    </tr>
-    <tr>
-      <th>18</th>
+      <th>15</th>
       <td>t7</td>
       <td>K-NN</td>
       <td>0.759520</td>
     </tr>
     <tr>
-      <th>19</th>
+      <th>16</th>
       <td>t7</td>
       <td>Linear Regression</td>
       <td>0.835763</td>
     </tr>
     <tr>
-      <th>20</th>
+      <th>17</th>
       <td>t7</td>
       <td>Random Forest</td>
-      <td>0.997790</td>
+      <td>0.997973</td>
     </tr>
     <tr>
-      <th>21</th>
+      <th>18</th>
       <td>t7</td>
       <td>Ridge</td>
       <td>0.985060</td>
     </tr>
     <tr>
-      <th>22</th>
+      <th>19</th>
       <td>t7</td>
       <td>SVR</td>
       <td>0.941786</td>
-    </tr>
-    <tr>
-      <th>23</th>
-      <td>t7</td>
-      <td>XGBoost</td>
-      <td>0.994284</td>
     </tr>
   </tbody>
 </table>
@@ -2721,7 +2699,7 @@
 </div>
 </div>
 <div class="cell_output docutils container">
-<img alt="_images/cc2a25e2a4e8953311941e74cc036085d6faa573f3575da21e225e89baf7edfe.png" src="_images/cc2a25e2a4e8953311941e74cc036085d6faa573f3575da21e225e89baf7edfe.png" />
+<img alt="_images/aee8bbd4ee814e4f21e42d8260c14df8666730e83a26007ffd3ee32a75e1fde2.png" src="_images/aee8bbd4ee814e4f21e42d8260c14df8666730e83a26007ffd3ee32a75e1fde2.png" />
 </div>
 </div>
 <p>lo primero que llama la atención es que los modelos tienen pesimo desempeño cuando trabaja con una ventana <code class="docutils literal notranslate"><span class="pre">t:21</span></code> y para el resto de los modelos con su tamaño de ventana el que mejor sobresale es con <code class="docutils literal notranslate"><span class="pre">t:7</span></code> que entre el promedio es el mayor con <code class="docutils literal notranslate"><span class="pre">0,921028</span></code> y del resto de ventanas teniendo un promedio entre sus modelos de: <code class="docutils literal notranslate"><span class="pre">t:14</span> <span class="pre">(0,900249)</span></code> , <code class="docutils literal notranslate"><span class="pre">t:21</span> <span class="pre">(-4,477615)</span></code> , <code class="docutils literal notranslate"><span class="pre">t:14</span> <span class="pre">(0,882914)</span></code></p>
